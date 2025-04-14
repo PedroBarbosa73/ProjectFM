@@ -1,0 +1,188 @@
+# Football Manager Voice Control Guide
+
+## 1. Basic Commands
+- Hold Caps Lock to activate voice commands
+- Press 'P' to read positions and roles
+- Press 'Space' to pause/resume the game
+
+## 2. Mentalities
+Available commands:
+- "very defensive"
+- "defensive"
+- "cautious"
+- "balanced"
+- "positive"
+- "attacking"
+- "very attacking"
+
+## 3. Shouts
+Available commands:
+- "encourage"
+- "calm down"
+- "focus"
+- "fire up"
+- "no pressure"
+- "demand more"
+- "praise"
+- "berate"
+
+## 4. Defensive Shape
+Available commands:
+
+### Line of Engagement
+- "high press"
+- "high block"
+- "press high"
+- "higher press"
+- "mid block"
+- "middle block"
+- "medium block"
+- "low block"
+- "drop deep"
+- "low engagement"
+- "low press"
+- "lower press"
+- "low pressure"
+- "lower pressure"
+
+### Defensive Line
+- "much higher defensive line"
+- "much higher defense"
+- "much higher defence"
+- "much higher back line"
+- "much higher backline"
+- "much higher line"
+- "higher defensive line"
+- "higher defense"
+- "higher defence"
+- "higher back line"
+- "higher backline"
+- "higher line"
+- "standard defensive line"
+- "normal defensive line"
+- "standard defense"
+- "standard defence"
+- "normal defense"
+- "normal defence"
+- "standard back line"
+- "normal back line"
+- "standard backline"
+- "lower defensive line"
+- "lower defense"
+- "lower defence"
+- "lower back line"
+- "lower backline"
+- "lower line"
+- "much lower defensive line"
+- "much lower defense"
+- "much lower defence"
+- "much lower back line"
+- "much lower backline"
+- "much lower line"
+
+## 5. Instructions
+Available commands:
+- "hit early crosses"
+- "pass into space"
+- "passing to space"
+- "pass to space"
+- "shoot on sight"
+- "work ball into box"
+- "work the ball into box"
+- "be more expressive"
+- "be more disciplined"
+- "play for set pieces"
+
+## 6. Substitutions
+Format: "swap S[number] with [position]"
+Example: "swap S6 with center midfielder"
+
+Available position names:
+- Goalkeeper: "goalkeeper", "keeper", "goalie"
+- Defenders: "right defender", "right back", "right center defender", "center defender", "left center defender", "left defender"
+- Midfielders: "right center midfielder", "center midfielder", "left center midfielder"
+- Attacking Midfielders: "right attacking midfielder", "right winger", "left attacking midfielder", "left winger"
+- Forwards: "striker", "forward", "center forward", "target man"
+
+Examples:
+- "swap S2 with goalkeeper"
+- "swap S1 with right attacking midfielder"
+- "swap S3 with striker"
+- "swap S4 with center midfielder"
+
+## Command Combinations
+You can combine multiple commands in a single voice input. Examples:
+- "high press and pass into space"
+- "encourage and be more expressive"
+- "change 5 12 and balanced"
+- "low block and much lower defensive line"
+
+## Command Execution Priority
+Commands are executed in the following order:
+1. Mentalities
+2. Shouts
+3. Instructions
+4. Substitutions
+5. Defensive Shape
+
+## Tips
+- Speak clearly and at a normal pace
+- Hold Caps Lock while speaking
+- Wait for the "Speak your command..." prompt
+- Multiple commands can be combined with "and"
+- The program will automatically handle menu navigation
+
+## Troubleshooting
+If a command doesn't work:
+1. Make sure the game window is active
+2. Check if the command is in the correct format
+3. Try speaking more clearly
+4. Wait a moment before giving the next command
+5. Make sure you're holding CAPS LOCK while speaking
+
+## Example Commands
+Simple commands:
+- "change mentality to attacking"
+- "shout praise"
+- "pass into space"
+- "change s1 with striker"
+- "high press"
+- "lower defensive line"
+
+Complex commands:
+- "very attacking. shout fire up. hit early crosses. work ball into box. change s1 with aml"
+- "defensive. shout demand more. pass into space. change s2 with striker"
+- "balanced. shout focus. be more expressive. high press. much higher defensive line"
+
+Additional Defensive Commands:
+----------------------------
+High Press:
+- "high press"
+- "press high"
+- "high block"
+- "high pressure"
+- "high pressing"
+
+Mid Block:
+- "mid block"
+- "middle block"
+- "medium block"
+- "mid pressure"
+- "medium pressure"
+
+Low Block:
+- "low block"
+- "drop deep"
+- "low engagement"
+- "low pressure"
+- "low pressing"
+- "drop back"
+
+Other Defensive Commands:
+- "push up"
+- "push forward"
+- "push back"
+- "low press"
+- "lower press"
+- "low pressure"
+- "lower pressure" 

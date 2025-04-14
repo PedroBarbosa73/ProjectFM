@@ -1,0 +1,70 @@
+Test Commands for Football Manager Assistant
+=========================================
+
+1. change mentality to balanced and high press and much higher defensive line and be more expressive and calm down and change s1 with goalkeeper
+
+2. change mentality to defensive and low block and much lower defensive line and be more disciplined and work ball into box and change s2 with striker
+
+3. change mentality to attacking and high press and higher defensive line and hit early crosses and demand more and change s3 with midfielder
+
+4. change mentality to cautious and mid block and standard defensive line and pass into space and focus and change s4 with defender
+
+5. change mentality to positive and low block and lower defensive line and shoot on sight and praise and change s5 with winger
+
+6. change mentality to very defensive and drop deep and much lower defensive line and be more disciplined and calm down and change s6 with full back
+
+7. change mentality to very attacking and high press and much higher defensive line and be more expressive and fire up and change s7 with center back
+
+8. change mentality to balanced and mid block and higher defensive line and work ball into box and focus and change s8 with attacking midfielder
+
+9. change mentality to defensive and low block and standard defensive line and pass to space and no pressure and change s9 with defensive midfielder
+
+10. change mentality to attacking and high press and lower defensive line and hit early crosses and demand more and change s10 with wing back
+
+11. change mentality to cautious and drop deep and much lower defensive line and shoot on sight and calm down and change s11 with center midfielder
+
+12. change mentality to positive and high press and much higher defensive line and pass into space and praise and change s12 with forward
+
+13. change mentality to very defensive and mid block and higher defensive line and work the ball into box and focus and change s13 with sweeper
+
+14. change mentality to very attacking and low block and standard defensive line and hit early crosses and fire up and change s14 with playmaker
+
+15. change mentality to balanced and high press and lower defensive line and pass to space and no pressure and change s15 with target man
+
+16. change mentality to defensive and drop deep and much lower defensive line and shoot on sight and calm down and change s16 with poacher
+
+17. change mentality to attacking and mid block and much higher defensive line and work ball into box and demand more and change s17 with advanced forward
+
+18. change mentality to cautious and low block and higher defensive line and pass into space and focus and change s18 with deep lying forward
+
+19. change mentality to positive and high press and standard defensive line and hit early crosses and praise and change s19 with shadow striker
+
+20. change mentality to very defensive and drop deep and lower defensive line and work the ball into box and calm down and change s20 with pressing forward
+
+21. change mentality to very attacking and high press and much lower defensive line and pass to space and fire up and change s21 with trequartista
+
+22. change mentality to balanced and mid block and much higher defensive line and shoot on sight and no pressure and change s22 with false nine
+
+23. change mentality to defensive and low block and higher defensive line and work ball into box and focus and change s23 with complete forward
+
+24. change mentality to attacking and drop deep and standard defensive line and pass into space and demand more and change s24 with defensive forward
+
+25. change mentality to cautious and high press and lower defensive line and hit early crosses and praise and change s25 with pressing forward
+
+26. change mentality to positive and mid block and much lower defensive line and work the ball into box and calm down and change s26 with target man
+
+27. change mentality to very defensive and low block and much higher defensive line and pass to space and focus and change s27 with poacher
+
+28. change mentality to very attacking and high press and higher defensive line and shoot on sight and fire up and change s28 with advanced forward
+
+29. change mentality to balanced and drop deep and standard defensive line and work ball into box and no pressure and change s29 with deep lying forward
+
+30. change mentality to defensive and mid block and lower defensive line and pass into space and demand more and change s30 with shadow striker
+
+Note: These commands test various combinations of:
+- Mentalities (all 7 types)
+- Defensive shapes (high press, mid block, low block, drop deep)
+- Defensive lines (much higher, higher, standard, lower, much lower)
+- Instructions (be more expressive, be more disciplined, work ball into box, etc.)
+- Shouts (calm down, demand more, focus, fire up, no pressure, praise)
+- Substitutions (all 30 positions with different player types) 

@@ -1,0 +1,90 @@
+FM VOICE COMMAND TEST RESULTS - ISSUES LOG
+=====================================
+Last Updated: [Current Test Session]
+
+[This file only tracks commands that had issues/bugs]
+
+✓ MENTALITY COMMANDS - All variations tested and working
+✓ SHOUTS - Fixed click position issue, now working
+✓ DEFENSIVE SHAPE - Fixed line of engagement and defensive line adjustments
+
+ISSUES FOUND:
+1. "shout praise" - Click position was incorrect (too far right)
+   FIX: Restored original working code (x + width - 15) for click position
+
+2. Complex command "change mentality to defensive shout demand more pass into space change s2 with stc":
+   - Substitution failed to complete (wrong confirm button path)
+   - S2 selection issues
+   FIX: 
+   - Updated confirm button path to "confirm_sub.png"
+   - Added uppercase conversion for substitute numbers
+   - Increased confidence levels for substitute selection 
+
+# Test Results Log
+
+##  Issues and Fixes
+
+### Issue 1: Shout Praise Click Position
+Issue: "shout praise" was clicking too far to the right
+Fix: Restored original click position calculation (x + width - 15)
+Status: ✅ RESOLVED
+
+### Issue 2: Work Ball Into Box Instruction
+Issue: Instruction not being recognized due to incorrect image path
+Fix: Updated image path from "work_ball_into_box_sel.png" to "work_the_ball_into_box_sel.png"
+Status: ✅ RESOLVED
+
+### Issue 3: Substitution Confirm Button
+Issue: Substitution command failing due to wrong confirm button path
+Fix: Updated confirm button path from "2014 confirm_sub.png" to "confirm_sub.png"
+Status: ✅ RESOLVED
+
+### Issue 4: Position Recognition
+Issue: "striker" not being recognized as "STC"
+Fix: Added special case handling for "striker" in position matching
+Status: ✅ RESOLVED
+
+### Issue 5: Defensive Line Adjustment
+Issue: Defensive line movement was using fixed pixel distances, causing overshooting
+Fix: Implemented image-based dragging that stops when target position is found
+Status: ✅ RESOLVED
+
+### Issue 6: Line of Engagement Speed
+Issue: Line adjustments were too slow due to small increments and many delays
+Fix: 
+- Increased drag increment from 15 to 25 pixels
+- Reduced movement durations to 0.1s
+- Added grayscale image detection for faster processing
+- Optimized verification steps
+Status: ✅ RESOLVED
+
+Issues Fixed:
+
+1. Line of Engagement:
+   - Fixed the wait time before starting to drag (reduced from 0.4s to 0.2s)
+   - Removed the unnecessary "move down" part that was moving the mouse away from the correct position
+   - Reduced the wait time before finding the line of engagement position (from 1.0s to 0.5s)
+
+2. Defensive Line:
+   - Removed the "move up" part in the mouse movement, now only moving right to avoid info popup
+   - Changed from `pyautogui.moveRel(50, -31, duration=0.1)` to `pyautogui.moveRel(50, 0, duration=0.1)`
+
+3. Out of Possession Menu:
+   - Reduced the wait time after clicking the Out of Possession menu from 2.0s to 0.5s
+   - Changed from `time.sleep(2.0)` to `time.sleep(0.5)`
+
+4. Multiple Commands:
+   - Fixed the issue where the instructions menu was closing after the first Out of Possession command
+   - Now processes all Out of Possession commands before closing the menu
+   - Removed unnecessary Cancel/OK button clicks when there are more commands to process
+
+5. Mouse Movement:
+   - Optimized mouse movement patterns for both line of engagement and defensive line
+   - Ensured mouse stays in correct position for dragging
+   - Added appropriate wait times between movements
+
+Current Working State:
+- Line of engagement adjustment works with correct mouse positioning and timing
+- Defensive line adjustment works with correct mouse movement (only right, no up)
+- Menu navigation and command processing is optimized
+- Multiple commands are processed correctly without premature menu closing 

@@ -1,0 +1,121 @@
+Version History and Working Features
+====================================
+
+Current Working Version (2025.03.28.02)
+-------------------------------------
+Location: backup_20250328_025042/
+Status: Working
+
+Working Features:
+- Voice commands (Caps Lock)
+- Text commands (T key)
+- Position reading (P key)
+- Game pause/resume (Space key)
+- Quit program (Q key)
+- Mentality changes
+- Shouts
+- Instructions (including defensive shapes)
+- Defensive shapes (now part of instructions menu)
+- Enhanced command processing with improved error handling
+- Better debug logging for substitutions
+
+Major Improvements in Current Version:
+1. Completely Redesigned Defensive Line Movement System:
+   * Replaced multiple drag attempts with a single, smooth drag movement
+   * Implemented dynamic drag distance calculation based on target position
+   * Standardized movement speed (20 pixels per position)
+   * Unified timing (0.5 seconds per position) for both upward and downward movements
+   * Removed unnecessary clicking after drag movements
+   * Improved position verification system
+
+2. Optimized Position Detection:
+   * Reduced wait times for position checks
+   * Improved confidence level handling
+   * Faster position verification
+   * More accurate position detection
+
+3. Command Processing Improvements:
+   * Better handling of "much lower" command
+   * Improved command priority system
+   * Enhanced error handling and logging
+   * More efficient command splitting
+
+Known Working Commands:
+1. Mentalities (Priority 1):
+   - "change mentality to defense"
+   - "attacking"
+   - "defensive"
+   - "balanced"
+   - "cautious"
+   - "positive"
+   - "negative"
+
+2. Shouts (Priority 2):
+   - "praise"
+   - "demand more"
+   - "encourage"
+   - "criticize"
+   - "calm down"
+   - "show some passion"
+
+3. Instructions (Priority 3):
+   - "pass into space"
+   - "high press"
+   - "mid block"
+   - "low block"
+   - Defensive line commands:
+     * "much higher defense"
+     * "higher defense"
+     * "standard defense"
+     * "lower defense"
+     * "much lower defense"
+
+4. Substitutions (Priority 4):
+   - Enhanced position detection
+   - Improved error handling
+   - Better debug logging
+
+Known Issues:
+1. Defensive line position needs adjustment when clicking OK button (to be fixed in next version)
+
+Command Modes:
+1. Text Mode:
+   - Press 'T' to enter text command mode
+   - Type commands directly
+   - Type 'exit' to leave text mode
+   - Use commas (,) to separate multiple commands
+   - Example: "defensive, demand more, pass into space"
+
+2. Voice Mode:
+   - Hold Caps Lock to activate
+   - Speak commands
+   - Release Caps Lock to execute
+
+Previous Versions:
+----------------
+Version 2025.03.28.01
+- Fixed defensive line position detection to properly handle "much lower" command
+- Improved command processing to check for "much lower" before "lower"
+- Added more detailed debug logging for command processing
+- Adjusted drag durations for smoother movement
+
+Version 2025.03.27
+- Initial implementation of defensive line movement system
+- Basic command processing
+- Position detection system
+
+Notes:
+- Current version includes both voice and text command support
+- All commands work in both voice and text modes
+- Command splitting system uses commas (,) to separate multiple commands
+- Commands are processed in priority order:
+  1. Mentalities (highest priority)
+  2. Shouts
+  3. Instructions (including defensive shapes)
+  4. Substitutions (lowest priority)
+- Error handling and logging implemented throughout
+- Enhanced debug logging for better troubleshooting
+- Improved error messages for better user feedback
+
+Last Updated: March 28, 2025
+Status: Working 
