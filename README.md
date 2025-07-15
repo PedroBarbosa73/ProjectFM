@@ -1,4 +1,4 @@
-# Project FM - Voice Control for Football Manager
+## Project FM - Voice Control for Football Manager
 
 A powerful voice-controlled assistant for Football Manager that lets you make tactical changes with your voice. Perfect for making quick adjustments during matches without taking your hands off the keyboard.
 
